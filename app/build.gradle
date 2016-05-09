@@ -10,20 +10,7 @@ android {
         versionCode 11
         versionName "2.6.1"
     }
-    signingConfigs {
-       release {
-           storeFile file(OPENTOKRTC_RELEASE_STORE_FILE)
-           storePassword OPENTOKRTC_RELEASE_STORE_PASSWORD
-           keyAlias OPENTOKRTC_RELEASE_KEY_ALIAS
-           keyPassword OPENTOKRTC_RELEASE_KEY_PASSWORD
-       }
-   }
-    buildTypes {
-        release {
-            signingConfig signingConfigs.release
-        }
-    }
-
+    
     sourceSets {
         main {
           jniLibs.srcDir 'jniLibs'
