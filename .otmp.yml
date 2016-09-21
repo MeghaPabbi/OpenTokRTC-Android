@@ -1,0 +1,10 @@
+name: OpenTokRTC-Android
+author: TokBox
+website: https://opentokrtc.com
+tags:
+ - Demo
+ - Reference
+image: https://lh3.ggpht.com/lxwCGq1xkKOGwBsMUGS_8Sm-0b5z8XHJlPCjmrmYF11XWoFgaNEpbGE1VWRYHOvEU3Y=h900
+description: OpenTok reference application for Android
+platforms:
+  - android
